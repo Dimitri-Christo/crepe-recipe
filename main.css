@@ -1,0 +1,106 @@
+html{
+  font: 100%/1.15 sans-serif;
+}
+
+header{
+    
+}
+
+body{
+  max-width: 60em;
+  background-color: #BFE1B0 ;
+  color: #004466 ;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar {
+    padding: 1rem;
+    margin: 1rem;
+    width: 91%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.navbar a {
+    color: #004466;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    font-size: 150%;
+}
+
+.navbar a:hover {
+    background: gainsboro;
+    transition: .8s ease;
+    padding: 1em;
+}
+
+h1 {
+    
+}
+
+h2{
+    
+}
+
+h3{
+    
+}
+
+
+/* lists */
+ol,
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 0.5px dashed #000;
+
+}
+
+/*style for boxes surrounding text*/
+.intro {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border: 1px double #000;
+}
+.content {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border: 1px double #000;
+}
+/*breakpoint for wider width layout*/
+
+@media (min-width: 60em) {
+  body {
+  font-size: 75%;
+  }
+}
+
+#ingredients {
+
+}
+
+#preparation {
+  
+}
+
+a.links:link { /*specifies link not in nav bar*/
+        color:cadetblue;
+}
+a.links:visited {
+        color: darkgreen;
+}
+a.links:hover {
+        color:purple;
+        text-decoration: underline;
+}
+a.links:active {
+        color:cadetblue;
+}
